@@ -1,7 +1,13 @@
 import React from 'react';
+import FormSignUp from './FormSignUp';
+import FormSuccess from './FormSuccess';
 
-function form() {
-  return <div></div>;
+function Form() {
+  return (
+    <div>
+      <FormSignUp />
+    </div>
+  );
 }
 
-export default form;
+export default Form;
